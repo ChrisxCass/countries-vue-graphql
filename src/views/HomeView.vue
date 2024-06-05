@@ -40,7 +40,7 @@
     >
       Ocurrió un error, vuelve a intentarlo mas tarde...
     </div>
-    <div class="d-flex">
+    <div>
       <ul class="grid" v-if="data && !loading">
         <li
           class="shadow rounded overflow-hidden custom-item"
