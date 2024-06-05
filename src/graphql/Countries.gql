@@ -1,0 +1,9 @@
+query allCountries($text: String!){
+  countries(filter: { name: { regex: $text } }) {
+    code
+    name
+    continent {
+      name
+    }
+  }
+}
